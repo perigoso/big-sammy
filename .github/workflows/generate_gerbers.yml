@@ -25,7 +25,7 @@ jobs:
       with:
         config: gerber.kibot.yml
         dir: gerber
-        sch: 'pcb/*.kicad_sch'
+        schema: 'pcb/*.kicad_sch'
         board: 'pcb/*.kicad_pcb'
     - name: upload results
       uses: actions/upload-artifact@v2
