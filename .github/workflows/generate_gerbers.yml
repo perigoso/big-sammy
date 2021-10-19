@@ -23,7 +23,7 @@ jobs:
     - uses: actions/checkout@v2
     - uses: nerdyscout/kicad-exports@v2.3.1
       with:
-        config: ../gerbers.kibot.yml
+        config: gerber.kibot.yml
         dir: gerber
         schema: 'pcb/*.sch'
         board: 'pcb/*.kicad_pcb'
